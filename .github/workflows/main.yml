@@ -7,6 +7,7 @@
     build:
       runs-on: ubuntu-latest
       steps: 
+
       - name: Krok 1
         uses: actions/checkout@v2
       - name: Krok 2
