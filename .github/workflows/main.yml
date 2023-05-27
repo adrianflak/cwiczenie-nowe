@@ -7,9 +7,10 @@
     build:
       runs-on: ubuntu-latest
       steps: 
-      - name: Step 1
+
+      - name: Krok 1
         uses: actions/checkout@v2
-      - name: Step 2
+      - name: Krok 2
         uses: actions/setup-node@v2
         with: 
           node-version: "14.x"
