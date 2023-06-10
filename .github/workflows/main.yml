@@ -36,7 +36,7 @@
         - name: Deployment aplikacja na Azure
           uses: azure/webapps-deploy@v1
           with:
-            app-name: githubactions02062023
+            app-name: adrian123
             publish-profile: ${{secrets.AZURE_WEB_APP_PUBLISH_PROFILE}}
             
 
